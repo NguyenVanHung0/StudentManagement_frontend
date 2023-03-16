@@ -1,0 +1,26 @@
+.register_form {
+    padding: 10px 30px;
+}
+
+.register_form .login_header {
+    margin-bottom: 10px;
+}
+
+.register_form .login_item {
+    margin-bottom: 5px;
+}
+
+.login_gender {
+    padding: 0 40px;
+    display: flex;
+}
+
+.login_gender label {
+    margin-right: 40px;
+    margin-left: 5px;
+}
+
+
+.login_box {
+    height: 90%;
+}

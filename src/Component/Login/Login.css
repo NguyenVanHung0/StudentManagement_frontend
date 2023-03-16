@@ -1,0 +1,137 @@
+.login {
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(rgb(230, 100, 154), rgb(145, 152, 229));
+    padding-top: 70px;
+}
+
+
+.login_box {
+    width: 60%;
+    height: 70%;
+    margin: auto;
+    text-align: center;
+    border: 1px solid var(--text-color);
+    vertical-align: middle;
+    display: flex;
+    align-items: center;
+    z-index: 1;
+    background-color: black;
+
+}
+
+.login_welcom {
+    height: 100%;
+    width: 100%;
+    flex: 1;
+    /* color: #60cf44; */
+    color: white;
+    padding-top: 100px;
+    position: relative;
+}
+
+.login_welcom img {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0.6;
+}
+
+.login_welcom-header {
+    position: absolute;
+    top: 150px;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 30px;
+    font-weight: 700;
+    width: 80%;
+
+}
+
+.login_welcom-description {
+    position: absolute;
+    top: 230px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 80%;
+}
+
+.login_form {
+    flex: 1;
+    color: white;
+    background-color: rgb(32, 31, 31);
+    height: 100%;
+    padding: 30px;
+    text-align: left;
+    width: 100%;
+}
+
+.login_header {
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.login_item {
+    margin-bottom: 15px;
+    width: 100%;
+    padding: 0 40px;
+}
+
+.login_item label {
+    display: block;
+}
+
+.login_item input {
+    height: 30px;
+    width: 100%;
+    outline: none;
+    border: none;
+    border-bottom: 1px white solid;
+    color: white;
+    /* padding: 5px 5px 0; */
+    background-color: rgb(32, 31, 31);
+}
+
+.login_role {
+    padding: 0 40px;
+    display: flex;
+}
+
+.login_role label {
+    margin-right: 40px;
+    margin-left: 5px;
+}
+
+.login_btn {
+    width: auto;
+    height: auto;
+    padding: 5px 10px;
+    margin: 10px 0 10px 50%;
+    transform: translateX(-50%);
+    background-color: rgb(72, 72, 228);
+    color: white;
+    outline: none;
+    border: none;
+    font-size: 20px;
+    border-radius: 4px;
+}
+
+.login_btn:hover,
+.register_link a {
+    cursor: pointer;
+    opacity: 0.8;
+}
+
+.register_link {
+    padding-left: 40px;
+}
+
+.register_link a {
+    margin-left: 5px;
+    color: rgb(130, 130, 235);
+    text-decoration: none;
+}

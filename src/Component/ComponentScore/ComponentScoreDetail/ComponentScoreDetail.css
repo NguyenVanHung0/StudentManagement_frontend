@@ -1,0 +1,50 @@
+.component_score-detail {
+    width: 100%;
+}
+
+.year-semester-subject {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.score_detail-body {
+    display: flex;
+    margin-top: 40px;
+}
+
+.teacher {
+    width: 40%;
+    text-align: center;
+}
+
+.teacher img {
+    width: 200px;
+    margin-bottom: 20px;
+}
+
+.teacher b {
+    font-size: 20px;
+    display: block;
+}
+
+
+.score_box {
+    width: 60%;
+    padding-left: 20px;
+}
+
+.score_box-item {
+    margin-bottom: 10px;
+}
+
+.chat-btn {
+    padding: 5px 10px;
+    margin-top: 10px;
+}
+
+.chat-btn:hover {
+    cursor: pointer;
+    opacity: 0.8;
+}

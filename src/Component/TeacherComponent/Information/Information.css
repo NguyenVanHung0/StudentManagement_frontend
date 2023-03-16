@@ -1,0 +1,238 @@
+.information {
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    padding-bottom: 20px;
+    position: relative;
+    overflow: auto;
+}
+
+.information_header {
+    margin-bottom: -50px;
+}
+
+
+.background img {
+    width: 100%;
+    height: 200px;
+}
+
+.avatar {
+    transform: translateY(-50%);
+}
+
+.avatar img {
+    width: 150px;
+    margin-left: 50px;
+}
+
+
+/* Information Body */
+
+.information_body {
+    padding: 0 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.information_account,
+.information_student {
+    box-shadow: 0 0 20px #333;
+    /* border: 1px solid #333; */
+    border-radius: 4px;
+    width: 48%;
+    padding: 20px 15px 60px;
+    position: relative;
+}
+
+.information-item {
+    margin-bottom: 15px;
+}
+
+.information_edit-btn {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    padding: 5px 10px;
+}
+
+.information_edit-btn:hover {
+    cursor: pointer;
+    opacity: 0.8;
+}
+
+/* .confirm {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: none;
+} */
+
+.confirm_overlay {
+    position: absolute;
+    top: 0;
+    bottom: -500px;
+    left: 0;
+    right: 0;
+    background-color: rgba(33, 33, 33, 0.5);
+}
+
+.confirm_box {
+    height: auto;
+    min-height: 200px;
+    background-color: white;
+    width: 400px;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%);
+    transform: translateY(-50%);
+    text-align: center;
+    border-radius: 6px;
+}
+
+.confirm_box-icon {
+    float: right;
+    font-size: 24px;
+    padding: 4px;
+    margin: 3px;
+}
+
+.confirm_box-icon:hover {
+    background-color: red;
+    cursor: pointer;
+}
+
+.confirm_box p {
+    padding: 20px 0 10px;
+    font-size: 20px;
+}
+
+.confirm_box input {
+    width: 60%;
+    margin: 10px auto;
+    display: block;
+    outline: none;
+    padding: 5px 10px;
+}
+
+.confirm_box button {
+    margin-top: 10px;
+    padding: 5px 10px;
+    font-size: 18px;
+}
+
+.confirm_box button:hover {
+    cursor: pointer;
+    opacity: 0.8;
+}
+
+
+/* Account Edit */
+
+.account_edit {
+    width: 100%;
+}
+
+.account_edit-box {
+    width: 50%;
+    margin: auto;
+    box-shadow: 0 0 20px #333;
+    border-radius: 8px;
+    padding: 20px;
+}
+
+.account_edit-header {
+    text-align: center;
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.account_edit-body {
+    width: 80%;
+    margin: auto;
+}
+
+.account_edit-item {
+    margin-bottom: 10px;
+    clear: both;
+}
+
+.account_edit-item label {
+    display: block;
+}
+
+.account_edit-item input,
+.account_edit-item select {
+    width: 100%;
+    outline: none;
+    padding: 5px 10px;
+}
+
+.account_edit-item select option {
+    padding: 5px 10px;
+    margin: 5px 0;
+}
+
+.plus_student-box {
+    margin: 10px 0;
+    display: flex;
+    /* display: none; */
+}
+
+.plus_student-box input {
+    /* display: none; */
+}
+
+.plus_student-box button {
+    /* display: none; */
+    padding: 5px;
+    background-color: red;
+    color: white;
+    border: none;
+
+}
+
+.plus_student-box button:hover {
+    opacity: 0.8;
+    cursor: pointer;
+}
+
+.plus_student-icon {
+    float: right;
+    padding: 5px;
+    font-size: 35px;
+    background-color: red;
+    color: white;
+    /* display: none; */
+}
+
+.plus_student-icon:hover {
+    opacity: 0.8;
+    cursor: pointer;
+}
+
+.update_btn {
+    padding: 5px 10px;
+}
+
+.update_btn:hover {
+    cursor: pointer;
+    opacity: 0.8;
+}
+
+.err_mesage {
+    color: rgba(255, 0, 0, 0.8);
+    margin-top: 4px;
+    display: none;
+}
+
+
+/* Student Edit */
+
+.information_body-teacher {
+    display: flex;
+    justify-content: center;
+}

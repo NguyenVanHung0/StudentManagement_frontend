@@ -1,0 +1,137 @@
+.homepage {
+    background-color: #eeeeee;
+    width: 100%;
+    height: 100vh;
+}
+
+.homepage_header {
+    background-color: white;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    box-shadow: 0 -10px 25px black;
+    padding: 15px 20px;
+}
+
+.homepage_logo {
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.homepage_account {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    position: relative;
+    cursor: pointer;
+}
+
+.homepage_account:hover .homepage_account-logout {
+    display: flex;
+}
+
+.homepage_logo img,
+.homepage_account img {
+    height: 100%;
+}
+
+.homepage_logo p,
+.homepage_account p {
+    margin-bottom: 2px;
+    margin-left: 5px;
+    font-size: 23px;
+}
+
+.homepage_account-logout {
+    position: absolute;
+    top: 105%;
+    right: 0;
+    background-color: white;
+    color: #333;
+    padding: 10px 20px;
+    font-size: 20px;
+    z-index: 1;
+    display: none;
+    align-items: center;
+    box-shadow: 0 0 20px #333;
+}
+
+.homepage_account-logout::before {
+    content: "";
+    display: block;
+    height: 20px;
+    position: absolute;
+    top: -20%;
+    left: 0;
+    right: 0;
+}
+
+.homepage_account-logout:hover {
+    opacity: 0.8;
+}
+
+.homepage_account-logout-icon {
+    margin-left: 10px;
+    font-size: 30px;
+}
+
+.hpbody {
+    width: 100%;
+    height: 80%;
+}
+
+.homepage_body {
+    display: flex;
+    margin: 20px auto 0;
+    /* padding: 0 100px; */
+    height: 100%;
+    width: 85%;
+}
+
+.homepage_navbar {
+    width: 30%;
+    background-color: white;
+    padding: 10px 10px;
+    margin-right: 10px;
+}
+
+.homepage_list {
+    list-style-type: none;
+}
+
+.homepage_item {
+    font-size: 20px;
+    padding: 10px 15px;
+}
+
+.homepage_item-icon {
+    margin-right: 10px;
+    transform: translateY(3px);
+}
+
+.homepage_item:hover {
+    background-color: #333;
+    color: white;
+    cursor: pointer;
+}
+
+.homepage_content {
+    padding-left: 10px;
+    border-left: 1px solid #333;
+    height: 100%;
+    width: 70%;
+    /* overflow: auto; */
+    background-color: white;
+}
+
+.active {
+    background-color: #333;
+    color: white;
+}
+
+
+/* .homepage_content img {
+    height: 100%;
+    width: 100%;
+} */

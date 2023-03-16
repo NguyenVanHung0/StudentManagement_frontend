@@ -1,0 +1,165 @@
+.component_score-detail {
+    width: 100%;
+    position: relative;
+    height: 100%;
+}
+
+.year-semester-subject {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.score_detail-body {
+    display: flex;
+    margin-top: 40px;
+}
+
+.score_detail-body table,
+.score_detail-body th,
+.score_detail-body td {
+    border: 1px solid #333;
+    border-collapse: collapse;
+    padding: 5px 10px;
+}
+
+.score_detail-body button {
+    padding: 10px;
+    color: white;
+    background-color: red;
+    border: none;
+    border-radius: 4px;
+    outline: none;
+}
+
+.score_detail-body button:hover {
+    cursor: pointer;
+    opacity: 0.8;
+}
+
+.teacher {
+    width: 40%;
+    text-align: center;
+}
+
+.teacher img {
+    width: 200px;
+    margin-bottom: 20px;
+}
+
+.teacher b {
+    font-size: 20px;
+    display: block;
+}
+
+
+.score_box {
+    width: 60%;
+    padding-left: 20px;
+}
+
+.score_box-item {
+    margin-bottom: 10px;
+}
+
+.chat-btn {
+    padding: 5px 10px;
+    margin-top: 10px;
+}
+
+.chat-btn:hover {
+    cursor: pointer;
+    opacity: 0.8;
+}
+
+.score_detail-overlay {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background-color: rgba(33, 33, 33, 0.6);
+    display: none;
+}
+
+.score_detail-overlay>div {
+    position: absolute;
+    background-color: white;
+    border: none;
+    border-radius: 4px;
+    box-shadow: 0 0 20px #333;
+    padding: 20px 20px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -55%);
+    height: 400px;
+    overflow: scroll;
+}
+
+.score_detail-overlay-header {
+    font-size: 25px;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 20px;
+    clear: both;
+}
+
+.score_detail-overlay-item {
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.score_detail-overlay-item label {
+    display: inline-block;
+    margin-bottom: 3px;
+}
+
+.score_detail-overlay-item input {
+    outline: none;
+    padding: 5px;
+    width: 80px;
+    display: inline-block;
+}
+
+.score_detail-overlay-item textarea {
+    width: 100%;
+    outline: none;
+}
+
+.score_detail-overlay-box button {
+    margin-top: 10px;
+    text-align: center;
+    border: none;
+    border-radius: 4px;
+    outline: none;
+    padding: 5px 10px;
+    background-color: red;
+    color: white;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.score_detail-overlay-box {
+    /* text-align: center; */
+}
+
+.score_detail-overlay-box button:hover {
+    cursor: pointer;
+    opacity: 0.8;
+}
+
+.score_detail-overlay-icon {
+    float: right;
+    padding: 5px;
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+.score_detail-overlay-icon:hover {
+    background-color: red;
+    color: white;
+    cursor: pointer;
+}

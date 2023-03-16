@@ -1,0 +1,60 @@
+.chat_teacher {
+    width: 100%;
+    border-left: 1px solid #333;
+    flex: 1;
+    overflow: auto;
+}
+
+.chat_teacher-input_box {
+    height: 100px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.chat_teacher-input_box input {
+    width: 80%;
+    padding: 5px 10px;
+    outline: none;
+}
+
+.chat_teacher-input_icon {
+    font-size: 35px;
+    border: 1px solid #333;
+    padding: 2px;
+    margin-left: -1px;
+}
+
+.chat_teacher-input_icon:hover {
+    cursor: pointer;
+    opacity: 0.8;
+}
+
+.chat_teacher-body {
+    padding: 10px 20px;
+}
+
+.chat_teacher-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #333;
+    padding: 10px;
+}
+
+.chat_teacher-item:hover {
+    cursor: pointer;
+    opacity: 0.8;
+    background-color: rgba(33, 33, 33, 0.6);
+    border-radius: 4px;
+}
+
+.chat_teacher-item img {
+    width: 40px;
+    margin-right: 20px;
+}
+
+.chat_teacher-item p {
+    font-size: 18px;
+}
